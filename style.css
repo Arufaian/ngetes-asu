@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: #191919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+}
+
+.green,
+.red,
+.blue,
+.yellow {
+  width: 140px;
+  height: 140px;
+}
+
+.green {
+  background-color: green;
+  border-radius: 140px 10px 10px 10px;
+}
+
+.red {
+  background-color: red;
+  border-radius: 10px 140px 10px 10px;
+}
+
+.blue {
+  background-color: blue;
+  /* border-radius: 10px 10px 10px 140px; */
+
+  border-radius: 10px 10px 140px 10px;
+}
+
+.yellow {
+  background-color: yellow;
+  /* border-radius: 10px 10px 140px 10px; */
+
+  border-radius: 10px 10px 10px 140px;
+}
