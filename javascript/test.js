@@ -9,6 +9,6 @@ trigerButton.addEventListener("click", function () {
 });
 
 function playAudio(name) {
-  let audio = new Audio(`resource/${name}.mp3`);
+  let audio = new Audio(`../resource/${name}.mp3`);
   audio.play();
 }
