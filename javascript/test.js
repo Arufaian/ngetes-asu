@@ -1,6 +1,4 @@
-let audio = new Audio(
-  "../resource/Page Flip Sound Effect No copyrhgt ...sound effect LNC.mp3"
-);
+let audio = new Audio("../resource/klek.mp3");
 
 let trigerButton = document.querySelector(".triggerButton");
 
